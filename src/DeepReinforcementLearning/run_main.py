@@ -27,7 +27,7 @@ from importlib import reload
 from keras.utils import plot_model
 
 import os
-print(os.getcwd())
+# print(os.getcwd())
 str = os.getcwd()
 if (not "DeepReinforcementLearning" in str):
     os.chdir(os.getcwd() + "\\DeepReinforcementLearning") # changing to current dir
