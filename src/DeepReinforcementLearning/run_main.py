@@ -109,7 +109,7 @@ while 1:
     reload(lg)
     reload(config)
     
-    print('ITERATION NUMBER ' + str(iteration + 1))
+    print('ITERATION NUMBER ' + str(iteration))
     
     lg.logger_main.info('BEST PLAYER VERSION: %d', best_player_version)
     print('BEST PLAYER VERSION ' + str(best_player_version))
