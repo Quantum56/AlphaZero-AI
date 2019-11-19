@@ -30,7 +30,7 @@ import os
 # print(os.getcwd())
 str = os.getcwd()
 if (not "DeepReinforcementLearning" in str):
-    os.chdir(os.getcwd() + "\\DeepReinforcementLearning") # changing to current dir
+    os.chdir(os.getcwd() + "\\src\\DeepReinforcementLearning") # changing to current dir
 
 from game import Game, GameState
 from agent import Agent
