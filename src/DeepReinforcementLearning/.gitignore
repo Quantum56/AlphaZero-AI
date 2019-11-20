@@ -109,3 +109,4 @@ code_archive/
 games/archive/
 *.pyc
 *.log
+**/logs
